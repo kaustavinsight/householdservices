@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './components/Header.js';
-import Footer from './components/Foooter.js';
+import Team from './components/Team.js';
 import Services from './components/Services.js';
 import './App.css';
 
@@ -10,7 +10,7 @@ function App() {
     <div>
       <Header/>
       <Services/>
-      <Footer/>
+      <Team/>
     </div>
   );
 }
