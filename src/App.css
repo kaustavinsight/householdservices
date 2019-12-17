@@ -1,0 +1,51 @@
+.header {
+  color: #ffffff;
+  background-color: blueviolet;
+  height: 5rem;
+  width: 100%;
+}
+.footer{
+  background-color:rgb(19, 17, 94);
+  height: 5rem;
+  width: 100%;
+  color: white;
+
+
+}
+.services {
+  display:inline-block;
+  width:150px;
+  height:200px;
+  margin:0;
+  padding:0;
+  border:0;
+  }
+  #one {
+  background:green;
+  width: 150px;
+  border: 15px solid red;
+  padding: 50px;
+  margin: 20px;
+
+  }
+  #two {
+  background:red;
+  width: 150px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  }
+  #three {
+  background:blue;
+  width: 150px;
+  border: 15px solid green;
+  padding: 50px;
+  margin: 20px;
+  }
+  #four {
+    background:blue;
+    width: 150px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+  }
