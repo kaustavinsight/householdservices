@@ -9,6 +9,7 @@
   height: 5rem;
   width: 100%;
   color: white;
+  text-align: center;
 
 
 }
@@ -19,13 +20,18 @@
   margin:0;
   padding:0;
   border:0;
-  }
+  margin-left: 0;
+  margin-right: 0;
+  justify-content: center;
+  
+ }
   #one {
   background:green;
   width: 150px;
   border: 15px solid red;
   padding: 50px;
   margin: 20px;
+  
 
   }
   #two {
@@ -49,3 +55,34 @@
     padding: 50px;
     margin: 20px;
   }
+  .text{
+    /* width:20px; */
+    display: inline;
+    color: white;
+    border: 1px solid #ffffff;
+    font-size:large;
+    margin:0px;
+    margin-left:0;
+    margin-right:0;
+
+  }
+  .text1{
+    /* width:20px; */
+    
+    color: white;
+    
+    font-size:medium;
+    margin:10px;
+    margin-left:0;
+    margin-right:0;
+
+  }
+  .imageholder
+    {
+      display: -webkit-flex; /* Safari */
+      -webkit-flex-direction: row-reverse; /* Safari 6.1+ */
+      display: flex;
+      flex-direction: row-reverse;
+      background-color: burlywood;
+    }
+  
