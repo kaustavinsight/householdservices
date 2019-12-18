@@ -88,4 +88,7 @@
       flex-direction: row-reverse;
       background-color: burlywood;
     }
-  
+  .img {
+    border-radius: 8px;
+    max-height: 10vh;
+  }
